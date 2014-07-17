@@ -1,9 +1,10 @@
 require 'sinatra/base'
+require 'slim'
 
 class AddressBook<Sinatra::Base
 
   get '/' do
-    'Sorry, Tim :)'
+    slim :home
   end
 
 end
