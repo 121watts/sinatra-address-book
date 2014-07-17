@@ -3,7 +3,7 @@ require 'sinatra/base'
 class AddressBook<Sinatra::Base
 
   get '/' do
-    'Hello World!'
+    'TIM IS WRONG'
   end
 
 end
