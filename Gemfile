@@ -10,3 +10,8 @@ group :development do
   gem 'rb-fsevent', :require => false
   gem 'guard-unicorn'
 end
+
+group :test do
+  gem 'rack-test'
+  gem 'rspec'
+end
